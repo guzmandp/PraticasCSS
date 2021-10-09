@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;700&display=swap');
+
+
+*{
+    font-family: 'Yaldevi' sans-serif;
+}
+
+
+.container__navBar{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(19, 6, 6);
+    color: #FFFF;
+    display: flex;    
+}
+
+.navBar{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.title__naviBar{
+    font-size: 36px;
+    margin-left: 20%;
+}
+
+.list__navBar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+}
+
+.btn__navBar{
+    width: 100px;
+    display: inline-flex;
+    align-items: center;
+    border-style: solid;
+    border-color: #FFFF;
+    color: #FFFF;
+    border-width: 1px;
+    height: 30px;
+    border-radius: 12px;
+    padding: 0; 
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn__navBar:hover{
+    transition: color 0.5s;
+    background-color: aliceblue;
+    color: black;
+}
+
+.img__banner{
+    width: 100%;  
+    height: 400px;  
+}
+
+.card__section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box__section{
+    cursor: pointer;
+    padding: 10px;
+    width: 280px;
+}
+
+.img__cardBox{
+    width: 250px;
+    height: 250px;
+}
+
+.title__cardBox{
+    font-family: Yaldevi;
+    font-size: 32px;
+
+}
+
+.text__cardBox{
+    font-family: Yaldevi;
+    font-size: 12.5px;
+}
+
+.container__section{
+    background-color: #372019;
+}
+
+.container__article{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title__boxSectio{
+    font-family: Yaldevi;
+    font-size: 25px;
+    color: #8c5240;
+    padding-top: 20px;
+
+}
+
+.img__boxSection{
+    width: 170px;
+    height: 170px;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
+
+.img__boxSection2{
+    width: 620px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.text__boxSection{
+    width: 230px;
+    font-family: Yaldevi;
+    font-size: 18px;
+    color: #8c5240;
+    padding-top: 10px;
+}
+
+.text__boxSection2{
+    font-family: Yaldevi;
+    font-size: 18px;
+    width: 650px;
+    line-height: 1.8;
+    color: #8c5240;
+    padding-top: 20px;
+}
+
+.container__aside{
+    background-color:#261611;
+    color: #774535;
+}
+.container__divaside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container__primeirabloque{
+    width: 60%;
+}
+
+.title__primeirobloque{
+    margin-left: 70px;
+    font-family: Yaldevi;
+    font-size: 25px;
+    color: #774535;
+}
+
+.container__sengundobloque{
+    width: 40%;
+    padding-left: 5% ;
+}
+
+.title__segundobloque{
+    font-family: Yaldevi;
+    font-size: 25px;
+    color: #774535;
+    padding-left: 20px;
+}
+.text__primeirobloque{
+    font-family: Yaldevi;
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 1.5;
+    color: #3d2118;
+    padding: 20px;
+}
+
+.ul__segundobloque{
+    font-family: Yaldevi;
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 2.5;
+    color: #774535;
+    padding-top:20px;
+}
+
+footer {
+    background:#160d0a;
+    color:  #774535;
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
